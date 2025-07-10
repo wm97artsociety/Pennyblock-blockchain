@@ -18,7 +18,16 @@ Pennyblock is a custom, EVM-compatible Layer 2 blockchain designed to revolution
 
 ### Penny-Stock Style Tokenomics
 
-- Depositing 1 ETH mints 1,000,000 TOEKEN tokens.
+old code 
+
+add this rate to smart contract for proper amounts
+
+tokensToMint = (ethAmount * ethUsdPrice) / 0.01;
+
+- Depositing 1 ETH mints mints TOEKEN tokens price through eth.
+
+
+
 - Smaller ETH deposits mint proportionally more tokens, incentivizing microtransactions.
 - Liquidity providers can add ETH liquidity to increase the token’s base minting rate, effectively boosting token value over time.
 - This dynamic minting mechanism simulates a live liquidity order book that rewards early participation.
