@@ -4,6 +4,12 @@
 
 ## Introduction
 
+
+add this tokens to mint to token contract for rate of eth to penny amount if eth gives $3000 you should get 300,000 penny stocks 
+
+
+tokensToMint = (ethAmount * ethUsdPrice) / 0.01;
+
 Pennyblock is a custom, EVM-compatible Layer 2 blockchain designed to revolutionize token economics through a unique penny-stock style token model. The native token, **TOEKEN**, provides exponentially greater token rewards for smaller ETH deposits, encouraging micropayments, broad participation, and organic liquidity growth. Combined with a multi-chain universal payment gateway, anti-dump safeguards, and lazy NFT minting, Pennyblock offers a robust and user-friendly ecosystem for token holders, liquidity providers, and traders.
 
 ---
