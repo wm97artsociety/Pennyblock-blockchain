@@ -18,8 +18,6 @@ Pennyblock is a custom, EVM-compatible Layer 2 blockchain designed to revolution
 
 ### Penny-Stock Style Tokenomics
 
-old code 
-
 add this rate to smart contract for proper amounts
 
 tokensToMint = (ethAmount * ethUsdPrice) / 0.01;
